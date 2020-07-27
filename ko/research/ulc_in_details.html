@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head><meta name="generator" content="Hexo 3.9.0">
+<head>
     <!-- Document Settings -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Page Meta -->
     <title>Status - Ultra Light Client in details</title>
     
 
     <!-- Mobile Meta -->
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Brand icon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
@@ -23,7 +23,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
@@ -32,30 +32,34 @@
     <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#4360DF">
 
-    <meta property="og:site_name" content="Status">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Status - Ultra Light Client in details">
+    <meta property="og:site_name" content="Status" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Status - Ultra Light Client in details" />
     
-    <meta property="og:url" content="https://status.im/research/ulc_in_details.html">
+    <meta property="og:url" content="https://status.im/research/ulc_in_details.html" />
     
-    <meta property="og:image" content="https://status.im/img/share.png">
-    <meta property="article:publisher" content="https://www.facebook.com/ethstatus">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Status - Ultra Light Client in details">
+    <meta property="og:image" content="https://status.im/img/share.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/ethstatus" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Status - Ultra Light Client in details" />
     
-    <meta name="twitter:url" content="https://status.im/research/ulc_in_details.html">
+    <meta name="twitter:url" content="https://status.im/research/ulc_in_details.html" />
     
-    <meta property="twitter:image" content="https://status.im/img/share.png">
-    <meta name="twitter:site" content="@ethstatus">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="628">
+    <meta property="twitter:image" content="https://status.im/img/share.png" />
+    <meta name="twitter:site" content="@ethstatus" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
 
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/monokai-sublime.min.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600|IBM+Plex+Sans:400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/application.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-</head></html>
+    
+<link rel="stylesheet" href="/css/main.css">
+
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Status" type="application/atom+xml">
+</head>
+
 <body class="template-page">
 
     <div class="main-container">
@@ -66,11 +70,7 @@
             <li class="xl:px-8 py-4 xl:py-16 md:text-lg 2xl:text-xl js-has-submenu hover:text-primary-base ">
                 <a href="/ko/features/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
                   기능 
-                  <span class="hidden xl:block ml-4">
-<svg class="fill-current w-4 h-4" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.001L0 0V2L4 5.001L8.001 2V0L4 3.001Z" fill-opacity="0.5"/>
-</svg>
-</span>
+                  <span class="hidden xl:block ml-4"><img src="/img/icon-arrow-down-small.svg"></span>
                 </a>
                 <div class="bg-white shadow py-16 border-t text-gray-900 border-gray-100 absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu z-10">
                     <div class="max-w-screen-lg mx-auto px-8 xl:px-12">
@@ -80,11 +80,7 @@
                                 <p class="text-2xl mt-4 font-display font-normal">안전한 메신저, 암호화폐 지갑, <br>웹3 브라우저, 모두를 한번에</p>
                                 <a href="/ko/features/" class="group text-primary-base font-special font-semibold hover:text-primary-900 inline-flex items-center mt-8">
                                   모든 기능 보기
-                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                 </a>
                             </div>
                             <div class="mt-4">
@@ -92,11 +88,7 @@
                                     <li>
                                       <a href="/ko/keycard-integration/" class="flex items-center group">
                                         키카드
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                 </ul>
@@ -106,11 +98,7 @@
                 </div>
             </li>
             <li class="js-has-submenu hover:text-primary-base py-4 border-t md:text-lg 2xl:text-xl border-gray-100 xl:border-t-0  xl:px-8 xl:py-16">
-                <a href="/ko/get-involved/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">참여하기 <span class="ml-4 hidden xl:block">
-<svg class="fill-current w-4 h-4" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.001L0 0V2L4 5.001L8.001 2V0L4 3.001Z" fill-opacity="0.5"/>
-</svg>
-</a></span>
+                <a href="/ko/get-involved/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">참여하기 <span class="ml-4 hidden xl:block"><img src="/img/icon-arrow-down-small.svg"></a></span>
                 <div class="bg-white shadow py-16 border-t border-gray-100 absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu z-10">
                     <div class="max-w-screen-lg mx-auto px-8 xl:px-12">
                         <div class="grid grid-cols-2 gap-24 xl:gap-48">
@@ -119,11 +107,7 @@
                                 <p class="text-2xl text-gray-900 mt-4">스테이터스는 전세계 사람들이 <br> 함께 만들어가는 오픈소스 프로젝트입니다.</p>
                                 <a href="/ko/get-involved/" class="group text-primary-base font-special font-semibold inline-flex items-center hover:text-primary-900 mt-12">
                                   더 알아보기
-                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                 </a>
                             </div>
                             <div class="mt-4 pl-12">
@@ -131,11 +115,7 @@
                                     <li class="w-1/2">
                                       <a href="/ko/docs/" class="flex items-center text-gray-900 group">
                                         개발자
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                     <li class="w-1/2">
@@ -182,22 +162,14 @@
                                     <li class="mt-8 w-1/2">
                                       <a href="/ko/get-involved/educators/" class="flex items-center text-gray-900 group">
                                         교육자
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                     <li class="w-1/2"></li>
                                     <li class="mt-8 w-1/2">
                                       <a href="/ko/get-involved/community-groups/" class="flex items-center text-gray-900 group">
                                         커뮤니티 그룹
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                 </ul>
@@ -211,11 +183,7 @@
             <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16 js-has-submenu " class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
                 <a href="/ko/docs/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
                   개발자 
-                  <span class="hidden xl:block ml-4">
-<svg class="fill-current w-4 h-4" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.001L0 0V2L4 5.001L8.001 2V0L4 3.001Z" fill-opacity="0.5"/>
-</svg>
-</span>
+                  <span class="hidden xl:block ml-4"><img src="/img/icon-arrow-down-small.svg"></span>
                 </a>
                 <div class="bg-white shadow py-16 border-t border-gray-100 absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu z-10">
                     <div class="max-w-screen-xl mx-auto px-8 lg:px-12">
@@ -225,11 +193,7 @@
                                 <p class="text-2xl mt-4 text-gray-900">스테이터스 <br> 개발을 시작하기 위해 필요한 모든 것</p>
                                 <a href="/ko/docs/" class="group font-special font-semibold text-primary-base hover:text-primary-900 inline-flex items-center mt-8">
                                   모두 읽기
-                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                 </a>
                             </div>
                             <div class="mt-4">
@@ -237,51 +201,31 @@
                                     <li>
                                       <a href="/ko/technical/" class="inline-flex items-center text-gray-900 group">
                                         참여자 가이드
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                     <li>
                                       <a href="/ko/developer_tools/" class="inline-flex items-center text-gray-900 group">
                                         DApp 통합
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                     <li>
                                       <a href="/ko/user_guides/" class="inline-flex items-center text-gray-900 group">
                                         User Guides
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="/ko/our_team/" class="inline-flex items-center text-gray-900 group">
+                                      <a href="https://tutorials.statusnetwork.com/" target="_blank" rel="noopener" class="inline-flex items-center text-gray-900 group">
                                         튜토리얼
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="https://specs.status.im/" class="inline-flex items-center text-gray-900 group">
+                                      <a href="https://specs.status.im/" target="_blank" rel="noopener" class="inline-flex items-center text-gray-900 group">
                                         스펙
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
                                       </a>
                                     </li>
                                 </ul>
@@ -291,7 +235,7 @@
                 </div>
             </li>
             <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16 "><a href="/ko/about/" class="text-gray-800 hover:text-primary-base font-medium inline-flex items-center">소개</a></li>
-            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16"><a href="https://our.status.im" class="text-gray-800 hover:text-primary-base font-medium inline-flex items-center">블로그</a></li>
+            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16"><a href="https://our.status.im" target="_blank" rel="noopener" class="text-gray-800 hover:text-primary-base font-medium inline-flex items-center">블로그</a></li>
         </ul>
     </nav>
     <div class="flex flex-col xl:flex-row xl:items-center language-option js-btns">
@@ -341,11 +285,7 @@
 	  <p class="text-gray-200">Status Docs</p>
 	  <form id="search-form" class="flex items-center relative">
       <span class="text-gray-500 mr-6">
-        <svg class="stroke-current w-8 h-8" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4301 16.669C15.8424 15.2188 17.433 11.2769 15.9828 7.86465C14.5326 4.45235 10.5908 2.86175 7.17851 4.31194C3.76621 5.76213 2.17561 9.70396 3.6258 13.1163C5.076 16.5286 9.01782 18.1192 12.4301 16.669Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M14.5508 15.2368L19.7574 20.4442" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-
+        <img src="/img/search.svg">
       </span>
 	    <input type="text" name="userSearch" id="search-input" placeholder="Search documentation..." class="bg-transparent placeholder-gray-400 text-lg">
 	    <div id="search-results" class="absolute top-0 bg-white px-4 mt-12 shadow-lg rounded z-10"></div>
@@ -506,6 +446,11 @@
       </li>
 
       <li class="py-4 xl:mb-6 border-t border-gray-100 xl:border-t-0 xl:py-0">
+        <a class="text-gray-900 hover:text-primary-base" href="/ko/audits/">Audits</a>
+        
+      </li>
+
+      <li class="py-4 xl:mb-6 border-t border-gray-100 xl:border-t-0 xl:py-0">
         <a class="text-gray-900 hover:text-primary-base" href="/ko/our_team">Join the team</a>
         
         <ul class = "text-lg pl-8 mt-4 hidden">
@@ -565,11 +510,15 @@
 <li><strong>TD</strong> - the total difficulty of the chain until a given block</li>
 <li><strong>LES</strong> - light Ethereum subprotocol</li>
 <li><strong>ULC</strong> - ultra light client, an option of LES</li>
-<li><strong>CHT</strong> - Canonical Hash Trie which maps historical block numbers to their canonical hashes in a Merkle trie. This allows us to discard the block headers themselves in favor of a trie root which encompasses the accumulation of their hashes, and to fetch proofs that a specific block hash is in fact the one we verified earlier <a href="https://wiki.parity.io/The-Parity-Light-Protocol-(PIP)" target="_blank" rel="noopener">[1]</a></li>
+<li><strong>CHT</strong> - Canonical Hash Trie which maps historical block numbers to their canonical hashes in a Merkle trie. This allows us to discard the block headers themselves in favor of a trie root which encompasses the accumulation of their hashes, and to fetch proofs that a specific block hash is in fact the one we verified earlier <a href="https://wiki.parity.io/The-Parity-Light-Protocol-(PIP)" target="_blank" rel="noopener"><a href="https://wiki.parity.io/The-Parity-Light-Protocol-(PIP)" target="_blank" rel="noopener">1</a></a></li>
 </ul>
 <h2 id="Overview" class="article-heading"><a href="#Overview" class="headerlink" title="Overview"></a>Overview<a class="article-anchor" href="#Overview" aria-hidden="true"></a></h2><p>ULC is a new option in LES that doesn’t break compatibility with the LES protocol, but does significantly reduce the time and resources required to sync with the main Ethereum chain.</p>
 <p>The main idea is to reduce the amount of messages and do less client side validation.</p>
-<h2 id="What-does-ULC-solves" class="article-heading"><a href="#What-does-ULC-solves" class="headerlink" title="What does ULC solves?"></a>What does ULC solves?<a class="article-anchor" href="#What-does-ULC-solves" aria-hidden="true"></a></h2><p>1) CPU and battery consumption<br>2) Time to start sync<br>3) Time to finish sync</p>
+<h2 id="What-does-ULC-solves" class="article-heading"><a href="#What-does-ULC-solves" class="headerlink" title="What does ULC solves?"></a>What does ULC solves?<a class="article-anchor" href="#What-does-ULC-solves" aria-hidden="true"></a></h2><ol>
+<li>CPU and battery consumption</li>
+<li>Time to start sync</li>
+<li>Time to finish sync</li>
+</ol>
 <h2 id="ULC-in-schemes" class="article-heading"><a href="#ULC-in-schemes" class="headerlink" title="ULC in schemes"></a>ULC in schemes<a class="article-anchor" href="#ULC-in-schemes" aria-hidden="true"></a></h2><h3 id="Algorithm" class="article-heading"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm<a class="article-anchor" href="#Algorithm" aria-hidden="true"></a></h3><pre><code class="flow">st=&gt;start: Start LES client
 with ULC options
 
@@ -592,8 +541,7 @@ Are all signs valid?
 
 st-&gt;op-&gt;op2-&gt;op3-&gt;op4-&gt;cond-&gt;op5-&gt;op4
 cond(yes)-&gt;op5
-cond(no)-&gt;op4
-</code></pre>
+cond(no)-&gt;op4</code></pre>
 <h3 id="Dataflow" class="article-heading"><a href="#Dataflow" class="headerlink" title="Dataflow"></a>Dataflow<a class="article-anchor" href="#Dataflow" aria-hidden="true"></a></h3><pre><code class="sequence">ULC-&gt;N_Trusted: handshake
 Note right of N_Trusted: setup LES params
 N_Trusted--&gt;ULC: handshake
@@ -615,15 +563,14 @@ Untrusted--&gt;ULC: handshake
 
 ULC-&gt;Untrusted: ask block header
 Untrusted--&gt;ULC: header
-Note left of ULC: header:\nblock announce, logsBloom,\nMerkle trees roots:\nstate, transactions, receipts
-</code></pre>
+Note left of ULC: header:\nblock announce, logsBloom,\nMerkle trees roots:\nstate, transactions, receipts</code></pre>
 <h3 id="Validation-of-header-“chain”-for-LES-and-ULC" class="article-heading"><a href="#Validation-of-header-“chain”-for-LES-and-ULC" class="headerlink" title="Validation of header “chain” for LES and ULC"></a>Validation of header “chain” for LES and ULC<a class="article-anchor" href="#Validation-of-header-“chain”-for-LES-and-ULC" aria-hidden="true"></a></h3><ol>
 <li>sanity check that the provided chain is actually ordered and linked. If we have a header chain of length N, for every <code>$n_i$</code> and <code>$n_{i-1}$</code>, <code>$i \epsilon [0; N]$</code>, conditions should hold:<ol>
 <li><code>$n_i.Number = n_{i-1}.Number+1$</code></li>
 <li><code>$n_i.ParentHash = n_{i-1}.Hash$</code></li>
 </ol>
 </li>
-<li>in Ethereum Yellow Paper section 4.3.4. “Block Header Validity”<a href="https://ethereum.github.io/yellowpaper/paper.pdf" target="_blank" rel="noopener">[2]</a><ol>
+<li>in Ethereum Yellow Paper section 4.3.4. “Block Header Validity”<a href="https://ethereum.github.io/yellowpaper/paper.pdf" target="_blank" rel="noopener"><a href="https://ethereum.github.io/yellowpaper/paper.pdf" target="_blank" rel="noopener">2</a></a><ol>
 <li>The length of <code>$n_i.Extra &lt; 32 bytes$</code></li>
 <li>Checks block timestamp:<ol>
 <li>It shouldn’t be from future more than 15 secs</li>
@@ -663,23 +610,28 @@ Note left of ULC: header:\nblock announce, logsBloom,\nMerkle trees roots:\nstat
 <p>For example, for epoch 232 (a current epoch at 12 Nov 2018) <code>$O_{cpu}(initStep) = O_{cpu}(seedHash)+O_{cpu}(initCahce) = 807133*O(sha3)$</code>.</p>
 <p>This is the theoretical lower bound. The <a href="https://github.com/ethereum/wiki/wiki/Ethash-Design-Rationale" target="_blank" rel="noopener">Ethash Design Rationale</a> mentions that “a light client should become fully operational and be able to verify blocks within 40 seconds in Javascript”.</p>
 <h5 id="Verify-step" class="article-heading"><a href="#Verify-step" class="headerlink" title="Verify step"></a>Verify step<a class="article-anchor" href="#Verify-step" aria-hidden="true"></a></h5><p>Light mode seal verification doesn’t store the entire dataset for block verification, but generates necessary items on-the-fly. For a single block it runs the <code>hashimotoLight</code> algorithm which takes:</p>
-<p><code>$generateDatasetItem = (2*sha3 + 512*fnv)$</code></p>
-<p>_More details about FNV32-1 hash function can be found <a href="https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function" target="_blank" rel="noopener">here</a>._</p>
+<p><code>$generateDatasetItem = (2*sha3 + 512*fnv)$ </code></p>
+<p><em>More details about FNV32-1 hash function can be found <a href="https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function" target="_blank" rel="noopener">here</a>.</em></p>
 <pre><code>$hashimotoLight = loopAccesses*mixBytes/hashBytes * (generateDatasetItem + fnvHash)$
 $hashimotoLight = 64*128/64 *(generateDatasetItem + fnv)$
 $hashimotoLight = 128*(generateDatasetItem + fnv)$
-$hashimotoLight = 256 sha3 + 65664 fnv$
-</code></pre><p>This is the difference between ULC and LES clients for each block. Because the CHT is generated once per 32767 blocks, the total difference is <code>$[1; 32767] * Cost(hashimotoLight) = [256*O(sha3) + 65664*O(fnv) ; 8.388.352*O(sha3) + 2.151.612.288*O(fnv)]$</code>. The growth is linear.</p>
+$hashimotoLight = 256 sha3 + 65664 fnv$</code></pre>
+<p>This is the difference between ULC and LES clients for each block. Because the CHT is generated once per 32767 blocks, the total difference is <code>$[1; 32767] * Cost(hashimotoLight) = [256*O(sha3) + 65664*O(fnv) ; 8.388.352*O(sha3) + 2.151.612.288*O(fnv)]$</code>. The growth is linear.</p>
 <p>This is the theoretical lower bound. As noted in the <a href="https://github.com/ethereum/wiki/wiki/Ethash-Design-Rationale" target="_blank" rel="noopener">Ethash Design Rationale</a>, a single block verification step should take <code>&#39;0.1 seconds in Python&#39;</code>. In practice it takes <code>~200ms</code> in Geth.</p>
 <h2 id="LES-vs-ULC" class="article-heading"><a href="#LES-vs-ULC" class="headerlink" title="LES vs ULC"></a>LES vs ULC<a class="article-anchor" href="#LES-vs-ULC" aria-hidden="true"></a></h2><p>So ULC saves <code>807133*O(sha3)</code> at init stage, which happens each epoch, and [<code>256*O(sha3) + 65664*O(fnv) ; 8.388.352*O(sha3) + 2.151.612.288*O(fnv)]</code> for each block while syncing. Because the difficulty of block verification grows linearly, the total difficulty of syncing <code>N</code> blocks grows as <code>$N^2$</code>.</p>
 <h2 id="ULC-in-Roles" class="article-heading"><a href="#ULC-in-Roles" class="headerlink" title="ULC in Roles"></a>ULC in Roles<a class="article-anchor" href="#ULC-in-Roles" aria-hidden="true"></a></h2><h3 id="Trusted-LES-servers" class="article-heading"><a href="#Trusted-LES-servers" class="headerlink" title="Trusted LES servers"></a>Trusted LES servers<a class="article-anchor" href="#Trusted-LES-servers" aria-hidden="true"></a></h3><p>Trusted LES servers are needed only to send announcements (in Geth code it has the name <code>announce(block hash, TD, number)</code>) to LES(ULC) clients. All announcements should be signed. Trusted servers don’t know whether they have been chosen as trusted or not by any given client. Such servers can be started with an <code>onlyAnnounce</code> flag, which ensures that the LES server operates under the rule “only send announcements to my peers, do not process any other requests”.</p>
 <h3 id="LES-servers-untrusted" class="article-heading"><a href="#LES-servers-untrusted" class="headerlink" title="LES servers (untrusted)"></a>LES servers (untrusted)<a class="article-anchor" href="#LES-servers-untrusted" aria-hidden="true"></a></h3><p>LES servers - usual LES servers, a header chain is synchronised with them. Helps to prevent attacks on trusted servers.</p>
 <h3 id="ULC-client" class="article-heading"><a href="#ULC-client" class="headerlink" title="ULC client"></a>ULC client<a class="article-anchor" href="#ULC-client" aria-hidden="true"></a></h3><ol>
-<li>has some CHT root at the start; has a CHTs “chain” that can be synced from LES servers; CHT chain allows to request any historical information (block, transaction, receipt) from LES server.</li>
-<li>trusts announcements received from <code>N</code> Trusted LES servers. Announcements should be signed by Trusted LES servers. There should be at least <code>M</code> identical announcements to trust.</li>
-<li>Asks for announcements with the biggest TD.</li>
-<li>ULC client starts CHT sync before syncing header chain. ULC client requests newer CHTs from LES servers.</li>
-<li>requests headers from untrusted LES server, starting from <code>the highest block is known to latest CHT + 1</code> up to latest block number known from the last trusted announcement.</li>
+<li><p>has some CHT root at the start; has a CHTs “chain” that can be synced from LES servers; CHT chain allows to request any historical information (block, transaction, receipt) from LES server.</p>
+</li>
+<li><p>trusts announcements received from <code>N</code> Trusted LES servers. Announcements should be signed by Trusted LES servers. There should be at least <code>M</code> identical announcements to trust.</p>
+</li>
+<li><p>Asks for announcements with the biggest TD.</p>
+</li>
+<li><p>ULC client starts CHT sync before syncing header chain. ULC client requests newer CHTs from LES servers.</p>
+</li>
+<li><p>requests headers from untrusted LES server, starting from <code>the highest block is known to latest CHT + 1</code> up to latest block number known from the last trusted announcement.</p>
+</li>
 <li><p>ULC client validates:</p>
 <ol>
 <li><p>announcements, checking if there are <code>M</code> of the same announcements as the <code>N</code> received from Trusted LES servers.    </p>
@@ -704,7 +656,12 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
 <li>at least one CHT, but we can have several consecutive CHTs</li>
 <li>headers chain of blocks of the latest Epoch</li>
 </ul>
-<h2 id="Security" class="article-heading"><a href="#Security" class="headerlink" title="Security"></a>Security<a class="article-anchor" href="#Security" aria-hidden="true"></a></h2><h3 id="Main-issues" class="article-heading"><a href="#Main-issues" class="headerlink" title="Main issues"></a>Main issues<a class="article-anchor" href="#Main-issues" aria-hidden="true"></a></h3><p>1) Most are inherited from LES<br>2) Too few LES servers in the Network<br>3) Trusted servers discovery (?)<br>4) DoS on trusted nodes</p>
+<h2 id="Security" class="article-heading"><a href="#Security" class="headerlink" title="Security"></a>Security<a class="article-anchor" href="#Security" aria-hidden="true"></a></h2><h3 id="Main-issues" class="article-heading"><a href="#Main-issues" class="headerlink" title="Main issues"></a>Main issues<a class="article-anchor" href="#Main-issues" aria-hidden="true"></a></h3><ol>
+<li>Most are inherited from LES</li>
+<li>Too few LES servers in the Network</li>
+<li>Trusted servers discovery (?)</li>
+<li>DoS on trusted nodes</li>
+</ol>
 <h3 id="Sybill-attack-on-ULC-client" class="article-heading"><a href="#Sybill-attack-on-ULC-client" class="headerlink" title="Sybill attack on ULC (client)"></a>Sybill attack on ULC (client)<a class="article-anchor" href="#Sybill-attack-on-ULC-client" aria-hidden="true"></a></h3><p>Prevented because it is already prevented in a classic LES model and we only download headers with trusted announcements.</p>
 <h3 id="Sybill-attack-on-trusted-servers" class="article-heading"><a href="#Sybill-attack-on-trusted-servers" class="headerlink" title="Sybill attack on trusted servers"></a>Sybill attack on trusted servers<a class="article-anchor" href="#Sybill-attack-on-trusted-servers" aria-hidden="true"></a></h3><p>Even less possible than in LES model because you’d need to attack at least <code>M</code> servers.</p>
 <h3 id="DoS-on-trusted-servers" class="article-heading"><a href="#DoS-on-trusted-servers" class="headerlink" title="DoS on trusted servers"></a>DoS on trusted servers<a class="article-anchor" href="#DoS-on-trusted-servers" aria-hidden="true"></a></h3><p>Possible. ULC makes it much less possible by hiding what nodes are trusted for each user. A user doesn’t send anything unusual for LES to trusted or untrusted servers. Any “trusted for a user” LES server doesn’t know that it has been chosen by the user to be a trusted LES server.</p>
@@ -720,10 +677,10 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
 <p><em>*Failure</em> - in the sense of Byzantine Failure, i.e. either a node crash or some malicious action. Such a failure for a trusted LES node would be sending fake announcements in an attempt to “switch” a user to a malicious chain.</p>
 <p>For example, let’s calculate the failure probability <code>$P_{ULC\_failure}$</code> while syncing or getting an incorrect state, given <code>N=10</code>, <code>M=6</code> and the failure probability of a single node P:</p>
 <pre><code>$$P_{ULC\_failure}=C_{10}^6*P^6*(1-P)^4+C_{10}^7*P^7*(1-P)^3+C_{10}^8*P^8*(1-P)^2
-+C_{10}^9*P^9*(1-P)+C_{10}^{10}*P^{10}$$
-</code></pre><pre><code>$$P_{ULC\_failure}=210*(1 - P)^4*P^6 + 120*(1 - P)^3*P^7 + 45*(1 - P)^2*P^8 
-+ 10*(1 - P)*P^9 + P^{10}$$
-</code></pre><p>Let’s take several values of the LES server failure probability and see what the probability of ULC breakage of the client is:</p>
++C_{10}^9*P^9*(1-P)+C_{10}^{10}*P^{10}$$</code></pre>
+<pre><code>$$P_{ULC\_failure}=210*(1 - P)^4*P^6 + 120*(1 - P)^3*P^7 + 45*(1 - P)^2*P^8 
++ 10*(1 - P)*P^9 + P^{10}$$</code></pre>
+<p>Let’s take several values of the LES server failure probability and see what the probability of ULC breakage of the client is:</p>
 <table>
 <thead>
 <tr>
@@ -734,20 +691,18 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
 <th>0.01%</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>~$P_{ULC_failure}$</td>
-<td>$10^{-6}\%$</td>
-<td>$10^{-10}\%$</td>
-<td>$10^{-16}\%$</td>
-<td>$10^{-22}\%$</td>
+<td>$10^{-6}%$</td>
+<td>$10^{-10}%$</td>
+<td>$10^{-16}%$</td>
+<td>$10^{-22}%$</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p><img src="https://i.imgur.com/D8lh6eG.png" alt="0-1"></p>
 <p><img src="https://i.imgur.com/0GmOWvy.png" alt="0-0.001"></p>
 <p>So ULC drastically increases the censorship resistance of an Ethereum client. We can develop a far more reliable system using unreliable nodes.</p>
-<p>A few N/M, given $P_{server_failure}=0.01\%$:</p>
+<p>A few N/M, given $P_{server_failure}=0.01%$:</p>
 <table>
 <thead>
 <tr>
@@ -756,59 +711,57 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
 <th>~$P_{ULC_failure}$</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>3</td>
 <td>2</td>
-<td>$3*10^{-8}\%$</td>
+<td>$3*10^{-8}%$</td>
 </tr>
 <tr>
 <td>4</td>
 <td>2</td>
-<td>$6*10^{-8}\%$</td>
+<td>$6*10^{-8}%$</td>
 </tr>
 <tr>
 <td>4</td>
 <td>3</td>
-<td>$4*10^{-12}\%$</td>
+<td>$4*10^{-12}%$</td>
 </tr>
 <tr>
 <td>5</td>
 <td>2</td>
-<td>$10^{-7}\%$</td>
+<td>$10^{-7}%$</td>
 </tr>
 <tr>
 <td>5</td>
 <td>3</td>
-<td>$10^{-11}\%$</td>
+<td>$10^{-11}%$</td>
 </tr>
 <tr>
 <td>5</td>
 <td>4</td>
-<td>$5*10^{-16}\%$</td>
+<td>$5*10^{-16}%$</td>
 </tr>
 <tr>
 <td>6</td>
 <td>2</td>
-<td>$1.5*10^{-7}\%$</td>
+<td>$1.5*10^{-7}%$</td>
 </tr>
 <tr>
 <td>6</td>
 <td>3</td>
-<td>$2*10^{-11}\%$</td>
+<td>$2*10^{-11}%$</td>
 </tr>
 <tr>
 <td>6</td>
 <td>4</td>
-<td>$1.5*10^{-15}\%$</td>
+<td>$1.5*10^{-15}%$</td>
 </tr>
 <tr>
 <td>6</td>
 <td>5</td>
-<td>$6*10^{-20}\%$</td>
+<td>$6*10^{-20}%$</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>Values 2/3, 3/4, 3/5, 4/5 look like reasonable values to use in ULC client.</p>
 <table>
 <thead>
@@ -818,39 +771,37 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
 <th>~$P_{ULC_failure}$</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>3</td>
 <td>1</td>
-<td>$3*10^{-8}\%$</td>
+<td>$3*10^{-8}%$</td>
 </tr>
 <tr>
 <td>4</td>
 <td>1</td>
-<td>$6*10^{-8}\%$</td>
+<td>$6*10^{-8}%$</td>
 </tr>
 <tr>
 <td>5</td>
 <td>1</td>
-<td>$10^{-7}\%$</td>
+<td>$10^{-7}%$</td>
 </tr>
 <tr>
 <td>5</td>
 <td>2</td>
-<td>$10^{-11}\%$</td>
+<td>$10^{-11}%$</td>
 </tr>
 <tr>
 <td>6</td>
 <td>1</td>
-<td>$1.5*10^{-7}\%$</td>
+<td>$1.5*10^{-7}%$</td>
 </tr>
 <tr>
 <td>6</td>
 <td>2</td>
-<td>$2*10^{-11}\%$</td>
+<td>$2*10^{-11}%$</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <h4 id="Trusted-nodes" class="article-heading"><a href="#Trusted-nodes" class="headerlink" title="Trusted nodes"></a>Trusted nodes<a class="article-anchor" href="#Trusted-nodes" aria-hidden="true"></a></h4><p>ULC clients need a set of trusted LES servers to get the current Chain state. It should be said that only ULC clients knows their own <code>trusted list</code>, LES servers don’t know whether they’ve been chosen as trusted by some ULC client. The key difference is that ULC clients request and accept only the signed announcements needed to trust some nonce (PoW) without performing their own check.</p>
 <p>We’re going to provide, predefined in the App, a trusted LES servers list. This also means that an application wanting to use ULC can define their own such trusted list of clients and do load balancing with a simple random choice.</p>
 <p>One of the major drawbacks currently, however, is that LES servers can handle only a limited number of clients. At the moment it’s $LES_limit=25$.</p>
@@ -866,8 +817,7 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
 <th>With <code>onlyAnnounce</code></th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>1000</td>
 <td>4</td>
 <td>160</td>
@@ -939,8 +889,7 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
 <td>2800</td>
 <td>280</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>It’s obvious that scaling due to server expansion inside the service is strictly limited. A prerequisite for the operation of ULC at large scales is an increase in the percentage of LES of servers relative to all Ethereum servers.</p>
 <p>At the moment there are 15000 nodes. If 30% of them would use the LES server option, more than 300 000 ULC users could be handled simultaneously.</p>
 <h2 id="Benchmarks" class="article-heading"><a href="#Benchmarks" class="headerlink" title="Benchmarks"></a>Benchmarks<a class="article-anchor" href="#Benchmarks" aria-hidden="true"></a></h2><p>Our beta test showed that ULC sync is ~10x times <a href="https://youtu.be/Z6UUT1TqdTs?t=623" target="_blank" rel="noopener">faster than LES</a></p>
@@ -967,23 +916,20 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
 	</section>
 
 </main>
+
         <footer class="js-footer custom-footer bg-black pt-12 pb-48 text-white ">
     <div class="max-w-screen-2xl mx-auto px-8 lg:px-12 mt-12">
         <div class="flex flex-col lg:flex-row lg:justify-between">
             <h3 class="font-display font-normal text-4xl xl:text-6xl">스테이터스와 <br> 함께 시작하세요</h3>
             <div class="lg:flex lg:items-center">
                 <div class="flex items-center mt-8 lg:mt-0">
-                    <a href="https://apps.apple.com/us/app/status-private-communication/id1178893006" id="official:ios" class="mr-16 app-download"><img src="/img/app-store.svg"></a>
-                    <a href="https://play.google.com/store/apps/details?id=im.status.ethereum" id="official:apk" class="mr-16 app-download"><img src="/img/google-play.svg"></a>
-                    <a href="https://status-im.ams3.cdn.digitaloceanspaces.com/StatusIm-v1.4.1.apk" id="official:apk" class="mr-16 app-download"><img src="/img/apk.svg"></a>
+                    <a href="https://apps.apple.com/us/app/status-private-communication/id1178893006" target="_blank" rel="noopener" id="official:ios" class="mr-16 app-download"><img src="/img/app-store.svg"></a>
+                    <a href="https://play.google.com/store/apps/details?id=im.status.ethereum" target="_blank" rel="noopener" id="official:apk" class="mr-16 app-download"><img src="/img/google-play.svg"></a>
+                    <a href="https://status-im.ams3.cdn.digitaloceanspaces.com/StatusIm-v1.4.1.apk" target="_blank" rel="noopener" id="official:apk" class="mr-16 app-download"><img src="/img/apk.svg"></a>
                 </div>
                 <a href="/ko/get-involved/" class="mt-8 py-3 px-4 border flex items-center justify-between lg:mt-0 border-white hover:bg-white hover:text-black rounded font-special font-medium">
                   참여하기
-                  <span class="ml-20">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                  <span class="ml-20"><img src="/img/icon-arrow-right.svg"></span>
                 </a>
             </div>
         </div>
@@ -995,11 +941,7 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
                 <h5 class="uppercase font-special tracking-widest text-lg text-gray-600">
                   <a data-toggle="collapse" class="js-collapse-trigger custom-accordion-trigger flex items-center justify-between" href="#footer-nav-1" role="button" aria-expanded="true" aria-controls="footer-nav-1">
                     제품
-                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100"><img src="/img/icon-arrow-right.svg"></span>
                   </a>
                 </h5>
                 <div class="js-collapse custom-accordion" id="footer-nav-1">
@@ -1016,11 +958,7 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
                 <h5 class="uppercase font-special tracking-widest text-lg text-gray-600">
                   <a data-toggle="collapse" class="js-collapse-trigger custom-accordion-trigger flex items-center justify-between" href="#footer-nav-2" role="button" aria-expanded="true" aria-controls="footer-nav-2">
                     스테이터스
-                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100"><img src="/img/icon-arrow-right.svg"></span>
                   </a>
                 </h5>
                 <div class="js-collapse custom-accordion" id="footer-nav-2">
@@ -1029,7 +967,7 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
                         <li class="mt-4"><a href="/ko/about/">소개</a></li>
                         <li class="mt-4"><a href="http://statusnetwork.com/press-kit/status/" target="_blank">미디어 키트</a></li>
                         <!-- <li class="mt-4"><a href="/ko/contribute/open_positions.html">채용</a></li> -->
-                        <li class="mt-4"><a href="https://our.status.im/">블로그</a></li>
+                        <li class="mt-4"><a href="https://our.status.im/" target="_blank" rel="noopener">블로그</a></li>
                         <li class="mt-4"><a href="/files/whitepaper.pdf" target="_blank">백서</a></li>
                         <li class="mt-4"><a href="https://analytics.status.im/" target="_blank">Analytics</a></li>
                     </ul>
@@ -1040,11 +978,7 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
                 <h5 class="uppercase font-special tracking-widest text-lg text-gray-600">
                   <a data-toggle="collapse" class="js-collapse-trigger custom-accordion-trigger flex items-center justify-between" href="#footer-nav-3" role="button" aria-expanded="true" aria-controls="footer-nav-3">
                     개발 문서
-                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100"><img src="/img/icon-arrow-right.svg"></span>
                   </a>
                 </h5>
                 <div class="js-collapse custom-accordion" id="footer-nav-3">
@@ -1052,8 +986,9 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
                         <li class="mt-4"><a href="/ko/docs/">개발자</a></li>
                         <li class="mt-4"><a href="/ko/developer_tools/">DApp 통합</a></li>
                         <li class="mt-4"><a href="/ko/technical/">참여자 가이드</a></li>
-                        <li class="mt-4"><a href="https://tutorials.statusnetwork.com/">튜토리얼</a></li>
-                        <li class="mt-4"><a href="https://specs.status.im/">스펙</a></li>
+                        <li class="mt-4"><a href="https://tutorials.statusnetwork.com/" target="_blank" rel="noopener">튜토리얼</a></li>
+                        <li class="mt-4"><a href="https://specs.status.im/" target="_blank" rel="noopener">스펙</a></li>
+                        <li class="mt-4"><a href="https://status.im/faq/">FAQs</a></li>
                     </ul>
                 </div>
             </div>
@@ -1063,11 +998,7 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
                   <div class="lg:flex lg:items-center">
                       <a data-toggle="collapse" class="js-collapse-trigger custom-accordion-trigger flex items-center justify-between" href="#footer-nav-4" role="button" aria-expanded="true" aria-controls="footer-nav-4">
                           스테이터스 네트워크
-                          <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100">
-<svg class="fill-current" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"/>
-</svg>
-</span>
+                          <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100"><img src="/img/icon-arrow-right.svg"></span>
                       </a>
                       <a href="https://statusnetwork.com/" target="_blank" class="hidden lg:block ml-4 flex-shrink-0 -mt-2"><img src="/img/footer-status-network-logo.svg"></a>
                     </div>
@@ -1174,6 +1105,16 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
                         </svg>
                     </a>
                 </li>
+                <li class="ml-8">
+                    <a class="hover:text-white" href="https://www.instagram.com/status.im/" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                            <rect width="26" height="26" rx="2" fill="white"/>
+                            <path transform="translate(2, 2) scale(0.9)" d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" fill="black"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -1182,7 +1123,7 @@ $hashimotoLight = 256 sha3 + 65664 fnv$
             <div>
                 <div class="flex items-center">
                     <a href="/ko/privacy-policy/">개인정보 보호 정책</a>
-                    <a href="https://our.status.im/implementing-fathom-analytics-on-marketing-websites/" class="ml-24">사이트 통계</a>
+                    <a href="https://our.status.im/implementing-fathom-analytics-on-marketing-websites/" target="_blank" rel="noopener" class="ml-24">사이트 통계</a>
                 </div>
                 <p class="text-gray-600 mt-4">스테이터스 연구 개발 GmbH, Baarerstrasse 10, Zug, Switzerland</p>
             </div>
